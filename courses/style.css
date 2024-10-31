@@ -1,0 +1,187 @@
+/* navBar */
+body {
+    overflow-x: hidden; 
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+#logo{
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+input, optgroup, select, textarea {
+    margin: 0px;
+}
+
+.btn-outline-success{
+    font-weight: bold;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.form-control{
+    font-weight: bold;
+}
+
+.navbar-nav {
+    padding-left: 15px;
+}
+
+.navbar-nav .dropdown-menu {
+    margin-right: 10px;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.d-flex {
+    display: flex !important;
+    padding: 5px;
+}
+
+.btn{
+    margin-right: 5px;
+}
+/* navbar ends */
+
+
+/*2nd Navbar */
+
+#container{
+    text-align: center;
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+#search-bar {
+    display: none;
+    padding: 5px;
+    width: 220px;
+    font-size: 15px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    outline: none;
+}
+
+  #search-bar:focus {
+    border-color: #007bff;
+  }
+
+  #hidden{
+    display: block;
+  }
+
+  .bi-search{
+    cursor: pointer;
+  }
+
+  #span span {
+    margin-left: 10px;
+    font-weight: bold;
+}
+  /* 2nd Navbar End */
+
+
+
+/* card */
+.btn{
+    margin-right: 5px;
+}
+
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 20%;
+    margin-top: 10px;
+}
+
+.row{
+    --bs-gutter-x: -0.5rem;
+}
+/* card-ends */
+
+/* footer */
+#footer{
+    min-width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#row{
+    margin: 0px;
+}
+
+#row2{
+    margin: 0px;
+}
+/* footer-Ends */
+
+
+@media (max-width: 950px) {
+    /* cards */
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 80%;
+    }
+        /* cards-end */
+
+
+    body {
+        overflow-x: hidden; 
+    }
+
+    /* sub-navbar */
+    #span span {
+        display: none;
+    }
+
+    input, optgroup, select, textarea {
+        margin: 0px;
+    }
+
+    #nav-toggler{
+        margin: 8px;
+    }
+
+}
+
+/* search-Bar Color */
+.btn-outline-success {
+    --bs-btn-color: #78dfef;
+    --bs-btn-border-color: #78dfef;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #78dfef;
+    --bs-btn-hover-border-color: #78dfef;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #78dfef;
+    --bs-btn-active-border-color: #78dfef;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #78dfef;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #78dfef;
+    --bs-gradient: none;
+}
+
+/* dropdown-Projects */
+.dropdown-item {
+    font-weight: 500;
+    color: #4b94dd;
+}
+
+.dropdown-menu{
+    border: 1px solid black;
+}
+
+@media (max-width: 1523px) {
+    #span span {
+        display: none;
+    }
+}
